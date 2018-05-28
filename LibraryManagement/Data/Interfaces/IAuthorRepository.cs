@@ -11,6 +11,6 @@ namespace LibraryManagement.Data.Interfaces
     {
         IEnumerable<Author> GetAllWithBooks();
 
-        Author GetWithBooks();
+        Author GetWithBooks(int id);
     }
 }
