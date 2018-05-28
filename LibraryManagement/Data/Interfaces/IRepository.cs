@@ -10,5 +10,9 @@ namespace LibraryManagement.Data.Interfaces
         IEnumerable<T> GetAll();
 
         IEnumerable<T> Find(Func<T,bool> predicate);
+
+        T GetById(int id);
+
+        void Create(T entity);
     }
 }
