@@ -14,5 +14,9 @@ namespace LibraryManagement.Data.Interfaces
         T GetById(int id);
 
         void Create(T entity);
+
+        void Create(T entity);
+
+        void Create(T entity);
     }
 }
