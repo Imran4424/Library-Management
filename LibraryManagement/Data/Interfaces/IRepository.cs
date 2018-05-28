@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Data.Interfaces
 {
-    public interface IRepository
+    public interface IRepository<T> where T: class
     {
+        IEnumerable<T> GetAll();
 
+        IEnumerable<T> Find(Func<T,bool> predicate);
     }
 }
