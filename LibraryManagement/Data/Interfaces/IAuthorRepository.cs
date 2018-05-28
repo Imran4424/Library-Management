@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Data.Interfaces
 {
-    interface IAuthorRepository
+    public interface IAuthorRepository
     {
+
     }
 }
