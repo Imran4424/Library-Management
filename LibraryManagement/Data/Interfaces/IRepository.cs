@@ -15,7 +15,7 @@ namespace LibraryManagement.Data.Interfaces
 
         void Create(T entity);
 
-        void Create(T entity);
+        void Update(T entity);
 
         void Create(T entity);
     }
