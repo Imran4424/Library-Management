@@ -7,6 +7,7 @@ namespace LibraryManagement.Data.Interfaces
 {
     interface IBookRepository
     {
+        IEnumerable<Book> GetAllWithAuthor();
 
     }
 }
