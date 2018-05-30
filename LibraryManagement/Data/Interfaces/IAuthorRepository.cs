@@ -14,3 +14,4 @@ namespace LibraryManagement.Data.Interfaces
         Author GetWithBooks(int id);
     }
 }
+
