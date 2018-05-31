@@ -15,5 +15,5 @@ namespace LibraryManagement.Data.Model
     }
 
 
-    public class
+    public
 }
