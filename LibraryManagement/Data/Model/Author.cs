@@ -18,6 +18,6 @@ namespace LibraryManagement.Data.Model
     public class Books
     {
     ada
-            adasd
+    
     }
 }
