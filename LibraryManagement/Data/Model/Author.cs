@@ -22,6 +22,5 @@ namespace LibraryManagement.Data.Model
             asd
         dasd
 
-            func<>
     }
 }
