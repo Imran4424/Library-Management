@@ -19,6 +19,5 @@ namespace LibraryManagement.Data.Model
     {
     ada
             adasd
-            asd
     }
 }
