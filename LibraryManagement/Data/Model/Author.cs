@@ -13,4 +13,5 @@ namespace LibraryManagement.Data.Model
 
         public ICollection <Book> Books { get; set; }
     }
+
 }
