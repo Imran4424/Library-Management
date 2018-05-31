@@ -17,6 +17,6 @@ namespace LibraryManagement.Data.Model
 
     public class Books
     {
-        public int BookId { get; set; }
+        
     }
 }
