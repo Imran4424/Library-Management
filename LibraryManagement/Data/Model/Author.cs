@@ -11,6 +11,6 @@ namespace LibraryManagement.Data.Model
 
         public string Name { get; set; }
 
-        public ICollection <Book> Books { get; set }
+        public ICollection <Book> Books { get; set; }
     }
 }
